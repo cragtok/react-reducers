@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AddTask from "./components/AddTask.js";
 import TaskList from "./components/TaskList.js";
+import tasksReducer from "./tasksReducer.js";
 
 export default function TaskApp() {
     const [tasks, setTasks] = useState(initialTasks);
